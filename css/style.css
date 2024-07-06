@@ -829,6 +829,7 @@
   }
   
   /*VENUE*/
+/* Default styles for larger screens */
 .venue-info-title h2 {
     font-size: 24px; 
 }
@@ -852,12 +853,16 @@
 .col-lg-6.col-12.mt-5.mt-lg-0 {
     margin: auto; 
 }
+
 .venue-thumb {
     width: 100%; 
     max-width: 500px; 
     margin-top: 80px;
     margin-left: 90px;
     text-align: center;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
 }
 
 .venue-info-body h4.text-center {
@@ -868,29 +873,60 @@
     margin-top: 20px; 
 }
 
-  .venue {
+.venue {
     background: var(--section-bg-color);
-  }
-  
-  .venue-thumb {
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .venue-info-title,
-  .venue-info-body {
+}
+
+.venue-info-title,
+.venue-info-body {
     padding: 40px;
-  }
-  
-  .venue-info-title {
+}
+
+.venue-info-title {
     background: var(--navbar-bg-color);
     padding: 20px 40px;
-  }
-  
-  .google-map {
+}
+
+.google-map {
     border-radius: 20px;
-  }
+}
+
+/* Media query for screens smaller than 768px (typical phone screens) */
+@media (max-width: 768px) {
+    .venue-info-title h2 {
+        font-size: 20px; /* Slightly smaller font size for phones */
+    }
+
+    .venue-info-body h4 {
+        font-size: 16px; /* Slightly smaller font size for phones */
+    }
+
+    .venue-info-body h5 {
+        font-size: 14px; /* Slightly smaller font size for phones */
+    }
+
+    .venue-info-body h4 span {
+        font-size: 16px; /* Slightly smaller font size for phones */
+    }
+
+    .venue-info-body h5 a {
+        font-size: 14px; /* Slightly smaller font size for phones */
+    }
+
+    .venue-thumb {
+        margin-top: 40px; /* Reduce top margin for phones */
+        margin-left: 0; /* Remove left margin for phones */
+    }
+
+    .venue-info-title,
+    .venue-info-body {
+        padding: 20px; /* Reduce padding for phones */
+    }
+
+    .venue-info-title {
+        padding: 10px 20px; /* Reduce padding for phones */
+    }
+}
   
   /*SITE FOOTER*/
   .site-footer {
