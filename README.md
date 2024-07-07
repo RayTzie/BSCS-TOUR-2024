@@ -1,2 +1,3 @@
 # BSCS-TOUR2024
-BCSC Educational Tour
+https://raytzie.github.io/BSCS-TOUR2024/
+Educational Tour Web Blog
