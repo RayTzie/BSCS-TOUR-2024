@@ -843,8 +843,13 @@
 }
 
 .venue-info-body h4 span {
-    font-size: 18px; 
+    font-size: 18px;
+    
 }
+.venue-info-body h4.d-flex-prob1 span {
+  padding-left: 15px;
+}
+
 
 .venue-info-body h5 a {
     font-size: 16px; 
