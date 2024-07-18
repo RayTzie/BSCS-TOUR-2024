@@ -1,6 +1,6 @@
 ## BSCS EDUCATIONAL TOUR :small_airplane:
 
-Bachelor of Science in Computer Science Industry Visit 2024 [LIVE RAW LINK](https://raytzie.github.io/BSCS-TOUR-2024/)
+Bachelor of Science in Computer Science Industry Visit 2024 [LIVE LINK](https://raytzie.github.io/BSCS-TOUR-2024/)
 
 <div style="display: inline_block"><br>
 
